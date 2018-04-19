@@ -120,6 +120,9 @@
         height:40px;
         margin:8px 28px 8px 20px;
     }
+    nav .user:hover {
+        background:#f5f5f5;
+    }
     nav .user .avatar:before {
         content:'';
         position:absolute;
@@ -135,6 +138,30 @@
         border-radius: 50%;
         border:1px solid #eee;
     }
-
-
+    nav .user .drop-menu {
+        position:absolute;
+        left:0;
+        box-shadow: 0 0 8px rgba(0,0,0,.1);
+        min-width:160px;
+        z-index:999;
+        margin:0;
+        padding:5px 0;
+        font-size:15px;
+    }
+    nav .user .drop-menu li a{
+        padding:10px 20px;
+        line-height:30px;
+        display:block;
+    }
+    nav .user .drop-menu li a:hover {
+        background:#f5f5f5;
+    }
+    nav .user .drop-menu li a i {
+        margin-right:10px;
+        color:#ea6f5a;
+        width:20px;
+        height:20px;
+        font-size:20px;
+        display:inline-block;
+    }
 </style>
