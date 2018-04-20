@@ -62,7 +62,9 @@ a:hover {
     margin-right:auto;
 }
 .container:after {
+    content:'';
     clear:both;
+    display:table;
 }
 @media (min-width:992px) {
     .container {

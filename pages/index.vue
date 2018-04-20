@@ -1,7 +1,6 @@
 <template>
     <div style="height:100%">
        <my-header></my-header>
-        <p>我的主体内容部分</p>
     </div>
 </template>
 <script>

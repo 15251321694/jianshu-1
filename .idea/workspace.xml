@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="20c38548-4941-4207-9114-f6c490ade1f7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/myHeader.vue" afterPath="$PROJECT_DIR$/components/myHeader.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.vue" afterPath="$PROJECT_DIR$/pages/index.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,21 +29,11 @@
       <file leaf-file-name="myHeader.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/myHeader.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="325" column="5" lean-forward="true" selection-start-line="325" selection-start-column="5" selection-end-line="325" selection-end-column="5" />
+            <state relative-caret-position="-2128">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#template#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -57,6 +49,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,8 +69,8 @@
         <option value="$PROJECT_DIR$/pages/sign-in.vue" />
         <option value="$PROJECT_DIR$/layouts/sign.vue" />
         <option value="$PROJECT_DIR$/layouts/default.vue" />
-        <option value="$PROJECT_DIR$/pages/index.vue" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/pages/index.vue" />
         <option value="$PROJECT_DIR$/components/myHeader.vue" />
       </list>
     </option>
@@ -112,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -134,31 +133,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jianshu2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jianshu2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -255,7 +235,8 @@
       <workItem from="1524031229377" duration="1904000" />
       <workItem from="1524033442954" duration="12575000" />
       <workItem from="1524099197755" duration="20794000" />
-      <workItem from="1524184488531" duration="9688000" />
+      <workItem from="1524184488531" duration="10003000" />
+      <workItem from="1524203973349" duration="8784000" />
     </task>
     <task id="LOCAL-00001" summary="登录页面">
       <created>1524046004170</created>
@@ -299,20 +280,27 @@
       <option name="project" value="LOCAL" />
       <updated>1524190120095</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="写仿bootstrap的下拉菜单">
+      <created>1524194969752</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1524194969752</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53872000" />
+    <option name="totallyTimeSpent" value="62971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.346519" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -378,13 +366,32 @@
     <MESSAGE value="导航制作中....." />
     <MESSAGE value="独立完成下拉功能" />
     <MESSAGE value="如何让container有高度" />
-    <option name="LAST_COMMIT_MESSAGE" value="如何让container有高度" />
+    <MESSAGE value="写仿bootstrap的下拉菜单" />
+    <option name="LAST_COMMIT_MESSAGE" value="写仿bootstrap的下拉菜单" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/components/myHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2660">
+          <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/myHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4750">
@@ -461,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1140">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,28 +588,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="76">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/myHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="325" column="5" lean-forward="true" selection-start-line="325" selection-start-column="5" selection-end-line="325" selection-end-column="5" />
+        <state relative-caret-position="-2128">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding>
             <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#template#0;n#!!top" expanded="false" />
           </folding>

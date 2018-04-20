@@ -238,8 +238,7 @@
         clear:both;
     }
     nav .nav-list>li {
-        float:left;
-        margin-right:5px;
+        margin-right:10px;
     }
     nav .nav-list>li a {
         display:block;
@@ -263,9 +262,9 @@
         margin-right:10px;
     }
     nav .nav-list .search form {
-        margin-bottom:20px;
         position:relative;
         top:9px;
+        margin-bottom:20px;
     }
     nav .nav-list .search form .search-input {
         width:240px;
@@ -317,16 +316,64 @@
         }
     }
     @media (max-width:1080px) {
+        nav .nav-list .search form .search-input,nav .nav-list .search form .search-input:focus {
+            width:150px;
+        }
+        nav .nav-list li {
+            margin-right:5px;
+        }
         nav .nav-list li span {
             display:none;
         }
         nav .nav-list>li a i {
             display:block;
+            margin:0;
         }
     }
-    @media (max-width:768px) {
+    @media (max-width: 767px) and (min-width: 320px) {
         nav .nav-list {
+            display:block;
+            max-height: 340px;
+            overflow-y: auto;
+            width: 100vw;
+            border: none;
+            overflow-x: visible;
+            padding-right: 15px;
+            padding-left: 15px;
+            box-shadow: inset 0 1px 0 hsla(0,0%,100%,.1);
+            margin-left:-15px;
+            margin-right:-15px;
+            background: #fff;
+        }
+        nav .nav-list > li {
+            display:block;
+            float:none;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        nav .nav-list >li a {
+            text-align:center;
+        }
+        nav .nav-list > li .drop-menu {
             display:none;
         }
+        nav .nav-list >li a i {
+            display:none;
+        }
+        nav .nav-list >li span {
+            display:block;
+        }
+        nav form .search-input,nav form .search-input:focus {
+            width: 100%!important;
+            display:block;
+        }
+    }
+    @media (min-width:768px) {
+        nav .nav-list {
+            float:left;
+        }
+        nav .nav-list > li {
+            float:left;
+        }
+
     }
 </style>
