@@ -12,13 +12,13 @@
                     写文章
                 </nuxt-link>
                 <!--登录用户信息-->
-                <div class="user">
+                <div class="user" @mouseover="userShow=true" @mouseleave="userShow=false">
                     <div class="drop-down">
                         <nuxt-link to="/u/123" class="avatar">
                             <img src="~/assets/img/default-avatar.jpg">
                         </nuxt-link>
                     </div>
-                    <ul class="drop-menu">
+                    <ul class="drop-menu" v-show="userShow">
                        <li>
                            <nuxt-link to="/">
                                <i class="fa fa-home"></i>
@@ -52,13 +52,68 @@
                     </ul>
                 </div>
                 <!--右上角，登录和注册-->
+                <!--导航部分-->
+                <div class="container">
+                    <ul class="nav-list">
+                        <li>
+                            <nuxt-link class="active" to="/">
+                                <i class="fa fa-compass"></i>
+                                <span>发现</span>
+                            </nuxt-link>
+                        </li>
+                        <li>
+                            <nuxt-link to="/follow">
+                                <i class="fa fa-book"></i>
+                                <span>关注</span>
+                            </nuxt-link>
+                        </li>
+                        <li class="user" @mouseover="notifyShow=true" @mouseleave="notifyShow=false">
+                            <nuxt-link to="/notify">
+                                <i class="fa fa-bell-o"></i>
+                                <span>消息</span>
+                            </nuxt-link>
+                            <ul class="drop-menu" v-show="notifyShow">
+                                <li>
+                                    <nuxt-link to="/">
+                                        <i class="fa fa-comment-o"></i>
+                                        评论
+                                    </nuxt-link>
+                                </li>
+                                <li>
+                                    <nuxt-link to="/">
+                                        <i class="fa fa-envelope-o"></i>
+                                        简信
+                                    </nuxt-link>
+                                </li>
+                                <li>
+                                    <nuxt-link to="/">
+                                        <i class="fa fa-plus-square-o"></i>
+                                        关注
+                                    </nuxt-link>
+                                </li>
+                                <li>
+                                    <nuxt-link to="/">
+                                        <i class="fa fa-heart-o"></i>
+                                        喜欢和赞
+                                    </nuxt-link>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </div>
 </template>
 <script>
     export default {
-        name:'myHeader'
+        name:'myHeader',
+        data () {
+            return {
+                userShow:false,
+                notifyShow:false,
+            }
+        }
     }
 </script>
 <style scoped>
@@ -164,4 +219,33 @@
         font-size:20px;
         display:inline-block;
     }
+    nav .nav-list {
+        float:left;
+        margin:0;
+    }
+    nav .nav-list:after {
+        clear:both;
+    }
+    nav .nav-list>li {
+        float:left;
+        margin-right:5px;
+    }
+    nav .nav-list>li a {
+        display:block;
+        height:56px;
+        line-height:26px;
+        padding:15px;
+    }
+    nav .nav-list>li a.active {
+        color:#ea6f5a;
+        background:none!important;
+    }
+    nav .nav-list>li a:hover {
+        background:#f5f5f5;
+    }
+    nav .nav-list>li a i {
+        margin-right:5px;
+        font-size:20px;
+    }
+
 </style>
