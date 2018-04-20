@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/components/myHeader.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="271" column="23" lean-forward="true" selection-start-line="271" selection-start-column="23" selection-end-line="271" selection-end-column="23" />
+              <caret line="271" column="23" lean-forward="false" selection-start-line="271" selection-start-column="23" selection-end-line="271" selection-end-column="23" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#template#0;n#!!top" expanded="false" />
               </folding>
@@ -235,7 +235,7 @@
       <workItem from="1524184488531" duration="10003000" />
       <workItem from="1524203973349" duration="8784000" />
       <workItem from="1524215798175" duration="336000" />
-      <workItem from="1524216512092" duration="328000" />
+      <workItem from="1524216512092" duration="430000" />
     </task>
     <task id="LOCAL-00001" summary="登录页面">
       <created>1524046004170</created>
@@ -286,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524194969752</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="asdfasdfasdfa">
+      <created>1524216848440</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1524216848440</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63635000" />
+    <option name="totallyTimeSpent" value="63737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -366,7 +373,8 @@
     <MESSAGE value="独立完成下拉功能" />
     <MESSAGE value="如何让container有高度" />
     <MESSAGE value="写仿bootstrap的下拉菜单" />
-    <option name="LAST_COMMIT_MESSAGE" value="写仿bootstrap的下拉菜单" />
+    <MESSAGE value="asdfasdfasdfa" />
+    <option name="LAST_COMMIT_MESSAGE" value="asdfasdfasdfa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -620,7 +628,7 @@
     <entry file="file://$PROJECT_DIR$/components/myHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="271" column="23" lean-forward="true" selection-start-line="271" selection-start-column="23" selection-end-line="271" selection-end-column="23" />
+          <caret line="271" column="23" lean-forward="false" selection-start-line="271" selection-start-column="23" selection-end-line="271" selection-end-column="23" />
           <folding>
             <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#template#0;n#!!top" expanded="false" />
           </folding>
