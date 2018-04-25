@@ -97,11 +97,14 @@
                         </a>
                     </div>
                 </div>
+                <!--留言组件-->
+                <my-comment></my-comment>
             </div>
         </div>
     </div>
 </template>
 <script>
+    import myComment from '~/components/myComment'
     import myHeader from  '~/components/myHeader'
     export default {
         data () {
@@ -110,7 +113,8 @@
             }
         },
         components:{
-            myHeader
+            myHeader,
+            myComment
         }
     }
 </script>
